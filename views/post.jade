@@ -1,0 +1,28 @@
+html
+  head
+    title My Jesus Flips Tables
+    link(rel='stylesheet', href='/stylesheets/postStyle.css')
+    link(href='https://fonts.googleapis.com/css?family=Josefin+Slab', rel='stylesheet', type='text/css')
+  body
+    .header
+      .links.links-left
+        a(href='www.google.com') first link
+        br
+        a(href='www.google.com') second link
+      .titles(onclick='window.location="/test"')
+        .title
+          | MY JESUS FLIPS TABLES
+        .sub
+          | YOUR 12 DOLLAR CAPPUCCINO CAN'T HANDLE THE GOSPEL
+      .links.links-right
+        a(href='www.google.com') first link
+        .br
+        a(href='www.google.com') second link
+    .main
+      .maincontain
+        .articletitle #{title}
+        .br
+        .content #{content}
+    .footer
+      .copyright
+        | © 2015 ISAIAH TAYLOR
